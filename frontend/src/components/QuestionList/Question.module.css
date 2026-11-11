@@ -1,0 +1,116 @@
+.feedContainer {
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+  }
+  
+  .feedHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .feedTitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 4px;
+  }
+  
+  .feedSubtitle {
+    font-size: 13px;
+    color: #6b7280;
+    margin: 0;
+  }
+  
+  .newestThreadsBtn {
+    background-color: #f97316;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 14px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .newestThreadsBtn:hover {
+    background-color: #ea580c;
+  }
+  
+  .threadList {
+    cursor:pointer;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #f3f4f6;
+  }
+  
+  .threadItem {
+    padding: 18px 20px;
+    border-bottom: 1px solid #f3f4f6;
+    transition: background-color 0.15s ease;
+  }
+  
+  .threadItem:hover {
+    background-color: #f9fafb;
+  }
+  
+  /* Slim left accent for user's own threads */
+  .yoursAccent {
+    border-left: 4px solid #f97316;
+    background-color: #fafaf9;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+    color: #0f172a;
+    flex-shrink: 0;
+  }
+  
+  .threadHeading {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1f2937;
+    margin: 0;
+  }
+  
+  .yoursBadge {
+    background-color: #ffedd5;
+    color: #c2410c;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+  }
+  
+  .threadSnippet {
+    font-size: 13px;
+    color: #4b5563;
+    margin: 6px 0 10px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.4;
+  }
+  
+  .threadFooter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: #6b7280;
+  }

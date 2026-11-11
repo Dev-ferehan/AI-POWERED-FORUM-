@@ -1,0 +1,209 @@
+.container {
+    padding: 20px 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .headerSection {
+    margin-bottom: 24px;
+  }
+  
+  .publishTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1b1e20;
+    margin-bottom: 6px;
+  }
+  
+  .publishSubtitle {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  .guidelineCard {
+    background-color: #f5f9fe;
+
+    border: 1px solid #fa7020;
+    border-left: 3px solid #fa7020;
+
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 24px;
+  }
+  
+  .guidelineTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #212529;
+    margin-bottom: 8px;
+  }
+  
+  .guidelineText {
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin-bottom: 12px;
+  }
+  
+  .listTitle {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 6px;
+  }
+  
+  .guidelineList {
+    font-size: 0.85rem;
+    color: #495057;
+    padding-left: 20px;
+    margin-bottom: 0;
+  }
+  
+  .guidelineList li {
+    margin-bottom: 4px;
+  }
+  .form{
+    padding: 20px;
+    border:0.5px #d6d6d7 solid ;
+    border-radius: 10px;
+    background-color: #f4f6f863;
+
+  }
+  .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #212529;
+    margin-bottom: 4px;
+  }
+  
+  .subLabel {
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .input, .textarea {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  .input:focus, .textarea:focus {
+    border-color: #fd7e14;
+    box-shadow: 0 0 0 3px rgba(253, 126, 20, 0.15);
+  }
+  
+  .editorToolbar {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-bottom: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 8px 12px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .toolbarBtn {
+    background: none;
+    border: none;
+    color: #495057;
+    font-size: 0.9rem;
+    cursor: pointer;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  
+  .toolbarBtn:hover {
+    background-color: #e9ecef;
+  }
+  
+  .textareaWithToolbar {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    resize: vertical;
+    min-height: 180px;
+  }
+  
+  .charCount {
+    font-size: 0.75rem;
+    color: #adb5bd;
+    text-align: right;
+    margin-top: 4px;
+  }
+  
+  .footerActions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+  }
+  
+  .cancelBtn {
+    background: none;
+    border: none;
+    color: #495057;
+    font-weight: 500;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .cancelBtn:hover {
+    color: #212529;
+  }
+  
+  .submitBtn {
+    background-color: #fd7e14;
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 8px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .submitBtn:hover {
+    background-color: #e86d0b;
+  }
+
+  .suggestBtn{
+    background-color: #edeceb;
+    color: rgb(73, 72, 72);
+    font-weight: 400;
+    gap:3px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  .draftSuccess{
+    font-size: 14px;
+    color: #309203;
+    border:none;
+  
+  }
+.draftError{
+    font-size: 14px;
+    color: #9f0212;
+   border: none;
+}
+.tip{
+    font-size: 14px;
+    color: #090a0a;
+    background-color: #f5f4f0;
+    border-color: #120e01;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-top: 10px;
+}

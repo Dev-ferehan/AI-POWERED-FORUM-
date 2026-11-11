@@ -1,0 +1,102 @@
+.workspaceCard {
+    background-color: #f8fafc;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0 !important;
+  }
+  
+  .workspaceTag {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #ea580c; /* Orange color */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  
+  .workspaceTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 4px;
+    margin-bottom: 6px;
+  }
+  
+  .workspaceSubtitle {
+    font-size: 0.8rem;
+    color: #64748b;
+    margin-bottom: 0;
+  }
+  
+  .newQuestionBtn {
+    background-color: #f97316;
+    color: #ffffff;
+    font-weight: 400;
+    border: none;
+    padding: 4px 6px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+  
+  .newQuestionBtn:hover {
+    background-color: #ea580c;
+    color: #ffffff;
+  }
+  
+  /* Thread Item Styling matching Home */
+  .threadItem {
+    background-color: #ffffff;
+    border-radius: 8px;
+    transition: transform 0.1s ease;
+  }
+  
+  .yoursAccent {
+    border-left: 4px solid #f97316 !important;
+  }
+  
+  .avatar {
+    width: 36px;
+    height: 36px;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: #0f172a;
+  }
+  
+  .threadHeading {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1e293b;
+  }
+  
+  .yoursBadge {
+    background-color: #ffedd5;
+    color: #c2410c;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  
+  .threadSnippet {
+    font-size: 0.85rem;
+    color: #475569;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 8px;
+  }
+  
+  .threadFooter {
+    font-size: 0.75rem;
+    color: #94a3b8;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .myQuestion{
+    cursor: pointer;
+  }

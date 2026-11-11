@@ -1,0 +1,72 @@
+.forumContainer {
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+  }
+  
+ 
+  
+  .welcomeTitle {
+    font-size: 23px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #4b5563;
+    line-height: 1.5;
+    margin-bottom: 25px;
+  }
+  
+  .actionCard {
+
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px !important;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .actionCard:hover {
+    border-color: #cbd5e1;
+    background: #f1f5f9;
+  }
+  
+  .iconBox {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 3%;
+    min-height: 34px;
+  }
+  
+  .orangeIcon {
+    color: #f97316;
+  }
+  
+  .cardTitle {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 4px;
+  }
+  
+  .cardText {
+    font-size: 12px;
+    color: #6b7280;
+    margin: 0;
+    line-height: 1;
+  }
